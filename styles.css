@@ -1,0 +1,99 @@
+body {
+    background-color: darkslategrey; /* setting the background color for the entire page */
+    margin: 0;
+}
+
+section{
+    min-height: 50vh;
+}
+
+/* for transition on our sections */
+.hidden{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.show{
+    opacity: 1;
+}
+
+/* spacing and alligning for our intro section */
+.intro {
+    margin-top: 22%; /* adding space from the top */
+    margin-left: 20%; /* adding space from the left */
+  }
+
+/* styling our h3 heading in intro and alligning */
+.intro h3 {
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    position: absolute;
+    top: 275px;
+}
+
+/* styling our h1 heading in intro and alligning */
+.intro h2 {
+    color: rgb(31, 184, 235);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 650%;
+    position: absolute;
+    top: 240px;
+}
+
+/* styling our p paragraph in intro */
+.intro p {
+    position: absolute;
+    max-width: 600px;
+    color:whitesmoke;
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    top: 425px;
+}
+
+.selfie{
+    position: absolute;
+    max-width: 100%; 
+    max-height: 100vh;
+    right: 400px;
+    top: 180px;
+    width: auto; 
+    height: 600px;
+    border: 2px solid #ccc; 
+    
+}
+
+
+/* spacing and styling for our navi section */
+.navi h3 {
+    word-spacing: 30px;
+    position: fixed;
+    top: 0;
+    right: 50px; 
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+}
+
+
+/* spacing and styling for our skills section */
+.skills{
+    width: 100%;
+    background-color: bisque
+}
+
+/* styling for our header for skills section */
+.skills h1 {
+
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+
+}
+
+/* resizing image of our logos and moving */
+.langs {
+    width: 500px;
+    left: 400px;
+    top: 1050px;
+    border-radius: 5%;
+}
