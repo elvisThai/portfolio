@@ -1,4 +1,4 @@
-# Elvis' Portfolio (very rough and unfinished)
+# Elvis' Portfolio (rough and unfinished)
 Welcome to my personal portfolio! This repository showcases my skills, projects, and experiences. Feel free to explore and learn more about me.
 
 ## Contact
