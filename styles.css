@@ -60,7 +60,6 @@ section{
     width: auto; 
     height: 600px;
     border: 2px solid #ccc; 
-    
 }
 
 
@@ -76,24 +75,25 @@ section{
 
 
 /* spacing and styling for our skills section */
-.skills{
+.contact{
     width: 100%;
-    background-color: bisque
+    background-color: lightgray
 }
 
 /* styling for our header for skills section */
-.skills h1 {
-
-    color:whitesmoke;
+.contact h1 {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
-
 }
 
-/* resizing image of our logos and moving */
-.langs {
-    width: 500px;
-    left: 400px;
-    top: 1050px;
-    border-radius: 5%;
+.bottom {
+    background-color: darkgray;
+    text-align: center;
 }
+.linkedin, .github{
+    width: 75px;
+}
+a:visited { 
+    color:darkgray
+   }
