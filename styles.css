@@ -19,7 +19,7 @@ section{
 /* spacing and alligning for our intro section */
 .intro {
     margin-top: 22%; /* adding space from the top */
-    margin-left: 20%; /* adding space from the left */
+    margin-left: 15%; /* adding space from the left */
   }
 
 /* styling our h3 heading in intro and alligning */
@@ -52,15 +52,15 @@ section{
 }
 
 .selfie{
-    position: absolute;
     max-width: 100%; 
     max-height: 100vh;
-    right: 400px;
-    top: 180px;
     width: auto; 
     height: 600px;
     border: 2px solid #ccc; 
-    
+
+    float: right;
+    margin-right: 170px;
+    margin-top: -170px;
 }
 
 
@@ -76,24 +76,25 @@ section{
 
 
 /* spacing and styling for our skills section */
-.skills{
-    width: 100%;
-    background-color: bisque
+.contact{
+    background-color: lightgray
 }
 
 /* styling for our header for skills section */
-.skills h1 {
-
-    color:whitesmoke;
+.contact h1 {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
-
 }
 
-/* resizing image of our logos and moving */
-.langs {
-    width: 500px;
-    left: 400px;
-    top: 1050px;
-    border-radius: 5%;
+.bottom {
+    background-color: darkgray;
+    text-align: center;
+}
+
+.linkedin, .github{
+    width: 75px;
+}
+.link:visited, .link:link{
+    color: darkgray
 }
