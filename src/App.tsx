@@ -14,7 +14,7 @@ function App() {
       {/* stars effect */}
       <div className = "stars">
         <Canvas>
-          <Stars radius ={50} count = {1500} factor = {3} fade speed = {2}></Stars>
+          <Stars radius ={100} count = {500} factor = {5} fade speed = {2}></Stars>
         </Canvas>
       </div>
 
@@ -27,6 +27,7 @@ function App() {
       <h3>Hi, my name is</h3>
      
       <h2>Elvis Thai</h2>
+      <h2 className ="title">Aspiring Software Engineer</h2>
     
       <p>I am a computer science student at Western University expected to graduate in May 2027. I am currently seeking opportunities to apply my skills and learn!</p>
       

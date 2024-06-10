@@ -4,7 +4,7 @@ import { Reveal } from './Reveal';
 
 const NavList = () => {
   return (
-    <ul className="nav-list" style={{right: "80.5%", top: "50%", position: "fixed" }}>
+    <ul className="nav-list" style={{right: "80.5%", top: "52%", position: "fixed" }}>
       <li style={{listStyle: 'none'}}>
         <a
           href="#"
